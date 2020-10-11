@@ -1,0 +1,24 @@
+.spotlight {
+    pointer-events: none;
+    opacity: 0;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #00000090;
+
+}
+
+.spotlight.active {
+    pointer-events: initial;
+    opacity: 1;
+}
+
+.selected {
+    background: green;
+}
